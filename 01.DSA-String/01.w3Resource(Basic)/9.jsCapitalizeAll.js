@@ -8,3 +8,4 @@ let jsCapitalizeAll = (str) => {
 };
 
 console.log(jsCapitalizeAll("imma hero here."));
+// Output: Imma Hero Here
