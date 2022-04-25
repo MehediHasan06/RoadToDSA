@@ -3,3 +3,4 @@ let jsCapitalize = (str) => {
 };
 
 console.log(jsCapitalize("imma hero here."));
+// Imma hero here.

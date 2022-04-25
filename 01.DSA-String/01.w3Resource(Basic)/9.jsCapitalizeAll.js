@@ -1,9 +1,10 @@
 let jsCapitalizeAll = (str) => {
-  let capitalizeStr;
+  let capitalizeArr = [];
   str.split(" ").forEach(elem => {
-    
+    capitalizeArr.push(elem.charAt(0).toUpperCase() + elem.slice(1));
   });
-  return 
+  return capitalizeArr.join(" ");
 };
 
 console.log(jsCapitalizeAll("imma hero here."));
+// Imma Hero Here
